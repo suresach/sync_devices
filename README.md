@@ -10,6 +10,10 @@ the project uses sockets, especially User Datagram Protocol to keep two devices 
     - You can make a virtual environment though the project does not use external dependencies.
     
     - The folder 'device_a' should be in one device and 'device_b' in another.
+    
+    - Set the IP address of device_a (containing server.py in the header of client.py)
+    
+    - Create a few random files in both the folders (the files to be synced)
 
     - Run the files server.py and client.py on the two devices using:
     
@@ -22,6 +26,8 @@ the project uses sockets, especially User Datagram Protocol to keep two devices 
 - The files added/ edited in any of the Devices are added to the same folder in other device.
 
 - After the sync operation files on both the devices specify from which device the changes are.
+
+- The types of file to be synced can be appended to the list 'ext', for now it is ext=['.txt']
 
 ### It looks somethin likes this:
 
