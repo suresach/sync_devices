@@ -11,13 +11,13 @@ the project uses sockets, especially User Datagram Protocol to keep two devices 
     
     - The folder 'device_a' should be in one device and 'device_b' in another.
     
-    - Set the IP address of device_a (containing server.py in the header of client.py)
+    - Connect devices on same network. Set the IP address of device_a (containing server.py in the header of client.py)
     
     - Create a few random files in both the folders (the files to be synced)
 
     - Run the files server.py and client.py on the two devices using:
     
-        `python server.py`
+        `python server.py`  and `python client.py`
         
     - There is a sync operation performed at every 10 seconds automatically, which can also start by typing 'sync' on device_b's console.
     
